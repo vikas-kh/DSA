@@ -1,0 +1,17 @@
+It is a class(non primitive data type)
+Immutable
+Domo d= new Demo(); //new used to allocate memory in heap
+
+class Demo{
+    int a;
+    int b;
+    static int c;
+    static int d;
+}
+
+2 ways to create object for string
+ 1)String s="hello"; //s is reffernce variable,  String is a type
+   Sting s1="hello";
+        They are same so there are no different memory they are stored in same  one location;
+        the s1 and s have same memory address;  they are stored in scp(string constant pool)
+2)String str1=new String("hello");
