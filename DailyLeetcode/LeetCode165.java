@@ -32,7 +32,7 @@ public class LeetCode165 {
     }
 
     public static void main(String[] args) {
-        String string1 = "1.0";
+        String string1 = "1.1";
         String string2 = "1.0.0.0";
         System.out.println(compareVersion(string1, string2)); // should return -1
     }
